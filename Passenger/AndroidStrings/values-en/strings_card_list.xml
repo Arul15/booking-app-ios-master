@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+ ******************************************************************************
+ *
+ * Copyright (C) 2013 T Dispatch Ltd
+ *
+ * Licensed under the GPL License, Version 3.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *     http://www.gnu.org/licenses/gpl-3.0.html
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ *
+ ******************************************************************************
+ *
+ * @author Marcin Orlowski <marcin.orlowski@webnet.pl>
+ *
+ ****
+-->
+
+<resources>
+
+	<string name="card_list_no_cards">No cards</string>
+	<string name="card_list_no_cards_button_add">Add</string>
+	
+	<string name="card_list_button_add">Add New Card</string>
+
+	<string name="card_list_row_no_label">Unnamed</string>
+	<string name="card_list_row_add_new">Add New Card</string>
+	
+	<string name="card_error_cannot_add_new_card">You cannot create more cards.</string>
+	<string name="card_error_failed_to_delete_card">Failed to delete card.\n\nReason: %s</string>
+	
+	<string name="card_undo_label">Card deleted.</string>
+
+	<string name="card_list_button_done">Done</string>
+		
+</resources>

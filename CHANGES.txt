@@ -1,0 +1,57 @@
+v.1.10.1 (2014.01.19)
+-----------------------------
+- Fixed a bug where a date string sent to the server was formatted incorrectly.
+- Sometimes nearby cabs were not updated correctly due to missing user location.
+
+v1.10 (2013.11.20)
+-----------------------------
+- Added ability to select car when placing booking.
+- Added cancellation reason to the cancel dialog.
+- Added cab office setting to force pickup or drop off to be a station.
+- Improved handling of keyboard on register account screen.
+- Booking history now includes “dispatched” bookings.
+- Improved UI on iOS7.
+- Other bug fixes and improvements.
+
+v1.9 (2013.09.17)
+-----------------------------
+- Added Greek localisation.
+- Updated localisation strings to latest version.
+- Fixed a bug where user was not able to select desired pickup time after selecting pickup date.
+- Updated UI to work properly on iOS 7.
+
+v1.8 (2013.08.08)
+-----------------------------
+- Improved UI for iPad.
+- Fixed a bug where app would crash if zip code or address sent to createBooking method was nil.
+- Fixed a bug where fare price and distance would not be calculated at all.
+- Improved search dialog.
+- Added option to force booking pickup time to be at least X minutes ahead.
+- Added app version to menu pane.
+- Added source code signature and app version to main menu.
+- Removed google maps SDK from repository and added instructions how to add it to the project.
+- Updated localisation strings to latest version.
+- Registration form now require accepting Terms and Services prior proceeding. Configurable via CabOfficeSettings.plist
+
+v1.7 (2013.07.23)
+-----------------------------
+- Fixed crash in bookings history.
+- Set proper passenger name/email/phone data in create booking request.
+- Added Brazilian Portuguese translation.
+
+v1.6 (2013.07.22)
+-----------------------------
+- Replaced Apple maps with Google maps.
+- Added iPad support.
+- Added Korean and Swedish translations.
+- Updated all translation to latest version.
+- Search location modules can now be enabled/disabled in CabOffixeSettings.plist.
+
+v1.5 (2013.07.15)
+-----------------------------
+- Added Google geolocator (default). Apple geolocator can be selected as default using cab office settings.
+- Added support for location search extension modules
+- Changed appearance of search dialog.
+- Improved compatibility with iOS7.
+- Improved UI layout to better fit translated texts.
+- E-mail/phone number in Cab Office is now hidden if not set by the office.
